@@ -8,6 +8,9 @@ public class FirstProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FirstProjectApplication.class, args);
+		Car newCar = new Car();
+		String str = newCar.start();
+		System.out.println(str);
 	}
 
 }
